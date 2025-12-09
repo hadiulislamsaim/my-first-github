@@ -1,0 +1,39 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: black;
+    list-style: none;
+
+} 
+body {
+ background-color:palegreen;
+
+}
+header {
+height: 50px;
+width: auto;
+justify-content: center;
+
+background-color: aliceblue;   
+
+}
+header ul {
+    display:  flex;
+    align-items: center;
+    justify-content: left;
+ padding: 20px 0px 0px 20px;
+    gap: 200px;
+    height: 10px;
+    
+}
+header ul li {
+    font-size: 20px;
+    box-sizing: border-box;
+    border: 2x solid transparent;
+}
+header ul li a :hover {
+    
+
+}
